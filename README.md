@@ -1,10 +1,10 @@
-# 📝 Todo App — Autenticação JWT
+#  Todo App — Autenticação JWT
 
 Lista de Tarefas com sistema completo de autenticação e autorização usando **Node.js + Express + JWT**.
 
 ---
 
-## 🚀 Como executar
+##  Como executar
 
 ```bash
 # 1. Clone o repositório
@@ -27,7 +27,7 @@ Acesse: **http://localhost:3000**
 
 ---
 
-## 🔑 Autenticação
+## Autenticação
 
 O sistema usa **tokens JWT** enviados no header `Authorization: Bearer <token>`.
 
@@ -87,7 +87,7 @@ Authorization: Bearer <token>
 
 ---
 
-## ✅ Tarefas (todas as rotas exigem autenticação)
+## Tarefas (todas as rotas exigem autenticação)
 
 | Método | Rota | Descrição |
 |--------|------|-----------|
@@ -108,7 +108,7 @@ Content-Type: application/json
 
 ---
 
-## 🛡️ Permissões de Acesso
+## Permissões de Acesso
 
 | Ação | Usuário comum | Admin |
 |------|:---:|:---:|
@@ -120,7 +120,7 @@ Content-Type: application/json
 
 ---
 
-## 🔒 Segurança implementada
+##  Segurança implementada
 
 - Senhas com **hash bcrypt** (salt rounds: 12)
 - Tokens **JWT** com expiração de 7 dias
@@ -131,7 +131,7 @@ Content-Type: application/json
 
 ---
 
-## 🧪 Testes
+## Testes
 
 Com o servidor rodando em outra aba:
 
@@ -143,7 +143,7 @@ Ou teste manualmente com **Postman** importando as requisições acima.
 
 ---
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 todo-auth/
