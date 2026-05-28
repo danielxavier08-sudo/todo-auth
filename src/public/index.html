@@ -325,7 +325,7 @@
         <div class="tarefa-info">
           <h3>${escapar(tarefa.title)}</h3>
           <p>${escapar(tarefa.description || '')}</p>
-          <span class="status">${tarefa.completed ? '✅ Concluída' : '🕐 Pendente'}</span>
+          <span class="status">${tarefa.completed ? 'Concluida' : '🕐 Pendente'}</span>
         </div>
         <div class="tarefa-acoes">
           <button onclick="alternarConcluida(${tarefa.id})" class="btn-concluir">
